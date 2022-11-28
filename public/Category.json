@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name":"I Phone 11",
+        "img":"https://i.ibb.co/0BZCq5p/iPhone-1.jpg",
+        "location":"khulna",
+        "orginalPrice":"$400",
+        "resalePrice":"$250",
+        "yearOfUse":"1year"
+        
+    },
+    {
+        "id": "1",
+        "name":"I Phone 12",
+        "img":"https://i.ibb.co/8jVsXJd/Iphon13.jpg",
+        "location":"Jassore",
+        "orginalPrice":"$450",
+        "resalePrice":"$300",
+        "yearOfUse":"1year"
+    },
+    {
+        "id": "2",
+        "name":"OnePlus 10Plus",
+        "img":"https://i.ibb.co/9t1QkhY/Oneplus-3.jpg",
+        "location":"Dhaka",
+        "orginalPrice":"$400",
+        "resalePrice":"$250",
+        "yearOfUse":"1year"
+    },
+    {
+        "id": "2",
+        "name":"OnePlus N2 0SE",
+        "img":"https://i.ibb.co/2S4zCvB/one-Pluse-N20.jpg",
+        "location":"Narsigdhi",
+        "orginalPrice":"$450",
+        "resalePrice":"$300",
+        "yearOfUse":"1year"
+    },
+    {
+        "id": "3",
+        "name":"Samsung A13",
+        "img":"https://i.ibb.co/Y7sYRVq/Samsung-A13.jpg",
+        "location":"Narsigdhi",
+        "orginalPrice":"$300",
+        "resalePrice":"$150",
+        "yearOfUse":"1year"
+    },
+    {
+        "id": "3",
+        "name":"Samsung Galxey Z-Flod",
+        "img":"https://i.ibb.co/dLx5xQd/samsung-2.jpg",
+        
+        "location":"Narsigdhi",
+        "orginalPrice":"$500",
+        "resalePrice":"$300",
+        "yearOfUse":"1year"
+    }
+]
