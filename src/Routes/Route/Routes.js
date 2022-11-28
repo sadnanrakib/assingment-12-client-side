@@ -3,10 +3,12 @@ import AllCategory from "../../AllCategorys/AllCategory";
 import Main from "../../Layout/Main";
 import AddPhone from "../../Pages/AddBook/AddPhone";
 import Blog from "../../Pages/Blog/Blog";
+import Dasboard from "../../Pages/Dasboard/Dasboard";
 import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import SingUp from "../../Pages/SingUp/SingUp";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 // import AddPhone from"../../Pages/AddBook/AddPhone";
 
 
@@ -41,7 +43,7 @@ export const router = createBrowserRouter([
                 element:<Login></Login> 
            },
            {
-            path:'/singup',
+            path:'/signup',
             element:<SingUp></SingUp>
            },
            {
@@ -52,17 +54,15 @@ export const router = createBrowserRouter([
             path:'/addphone',
             element:<AddPhone></AddPhone>
            },
-        //    {
-        //     path:'/categoris/:id',
-        //     element:<Category></Category>,
-        //     loader:({params})=>fetch(`http://localhost:5000/categoris/${params.id}`)
-        //    },
-        //    {
-        //     path:'/categories',
-        //     element:<Categories></Categories>
-        //    }
+         
+       
         ]
-    }
+    },
+    {
+        path:'/dashboard',
+        element:<PrivateRoute><Dasboard></Dasboard></PrivateRoute>
+       }
+    
 ])
 
 
