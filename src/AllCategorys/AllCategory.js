@@ -12,7 +12,8 @@ const AllCategory = () => {
         
           <div className='grid gap-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
                 {
-                  category?.map(cat=> <Categories
+                  category?.map((cat,i)=> <Categories
+                  key={i}
                     cat={cat}
                     
                     // setItem={setItem}
