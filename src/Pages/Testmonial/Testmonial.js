@@ -1,35 +1,35 @@
 import React from 'react';
 import Review from './Review';
 import quote from '../../assets/icons/quote.svg';
-import people1 from '../../assets/images/people1.png';
-import people2 from '../../assets/images/people2.png';
-import people3 from '../../assets/images/people3.png';
+import people1 from '../../assets/images/people1.JPG';
+import people2 from '../../assets/images/people2.jpeg';
+import people3 from '../../assets/images/people3.jpeg';
 
 
 const Testmonial = () => {
     const reviews = [
         {
           _id: 1,
-          name: "Winson Herry",
+          name: "Rs Rakib",
           img: people1,
           review:
-            "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
+            "I am Not Ever seen this person type people..Bcz He is good person and his products are great..I love this..i recommend to all people to buy his product by his Shop",
           location: "Chittagong",
         },
         {
           _id: 2,
-          name: "Winson Herry",
+          name: "Hedaytul Islam",
           img: people2,
           review:
-            "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
+            "I am Not Ever seen this person type people..Bcz He is good person and his products are great..I love this..i recommend to all people to buy his product by his Shop",
           location: "Khulna",
         },
         {
           _id: 3,
-          name: "Winson Herry",
+          name: "Sifat Hosseen",
           img: people3,
           review:
-            "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
+            "I am Not Ever seen this person type people..Bcz He is good person and his products are great..I love this..i recommend to all people to buy his product by his Shop",
           location: "Dhaka",
         },
       ];
