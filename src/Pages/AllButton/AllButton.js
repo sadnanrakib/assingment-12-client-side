@@ -14,7 +14,7 @@ const AllButton = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Iphone</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>CheckOut This Phone Model?</p>
           <div className="card-actions">
           <Link to="/allcategory/IPhone" className="btn btn-outline">
         IPhone
@@ -32,7 +32,7 @@ const AllButton = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">One Plus</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>CheckOut This Phone Model?</p>
           <div className="card-actions">
           <Link to="/allcategory/OnePlus" className="btn btn-outline">
         One Plus
@@ -50,7 +50,7 @@ const AllButton = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Samsung</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>CheckOut This Phone Model?</p>
           <div className="card-actions">
           <Link to="/allcategory/Samsung" className="btn btn-outline">
         Samsung

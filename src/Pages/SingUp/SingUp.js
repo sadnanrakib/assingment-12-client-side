@@ -9,7 +9,7 @@ const SingUp = () => {
     const { createUser, updateUser } = useContext(AuthContext);
     const [signUpError, setSignUPError] = useState('')
     const handleSignUp = (data) => {
-        // console.log(data);
+        console.log(data);
         setSignUPError('');
         createUser(data.email, data.password)
             .then(result => {
